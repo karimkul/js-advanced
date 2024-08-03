@@ -1,0 +1,31 @@
+Assignment-1
+In this assignment, you will enhance your understanding of callbacks by refactoring a series of arithmetic functions. You will start with individual functions that perform basic arithmetic operations and then refactor them into a more flexible and reusable design using callbacks.
+
+Instructions
+Create the Initial Functions
+
+Write four separate functions that take two numbers, num1 and num2, as arguments:
+
+addTwoNumbers: Adds num1 and num2 and returns a string stating "The result of adding is [result]."
+
+subtractTwoNumbers: Subtracts num2 from num1 and returns a string stating "The result of subtracting is [result]."
+
+multiplyTwoNumbers: Multiplies num1 and num2 and returns a string stating "The result of multiplying is [result]."
+
+divideTwoNumbers: Divides num1 by num2 and returns a string stating "The result of dividing is [result]."
+
+Recognize the Repetition
+
+Examine the four functions you've created. Notice that they contain similar code structures but perform different arithmetic operations. This similarity indicates that the code can be optimized.
+
+Refactor Using Callbacks
+
+Your task is to create a more elegant solution by refactoring the functions using callbacks:
+
+Define four separate functions that perform the arithmetic operations: add, subtract, multiply, and divide.
+
+Create a generic function, calculate, that takes num1, num2, and a callback function as parameters. This generic function will call the specific arithmetic operation passed as a callback.
+
+Test Your Refactored Code
+
+Test your refactored code by invoking the generic function with different arithmetic functions as callbacks.
