@@ -1,4 +1,4 @@
-// Problem Statement
+// References
 
 // Initialize original array and object
 let originalArray = [1, 2, 3];
