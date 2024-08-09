@@ -1,0 +1,49 @@
+Part 1
+In this part of the assignment, you will work with four different problems, each dealing with array manipulation and numerical conditions. Initially, you will solve these problems by writing specific functions for each scenario. After completing the solutions, you will analyze your code to identify repetitive patterns and common logic. Your task will then be to refactor the solutions by using generic functions and callbacks, promoting code reusability and maintainability.
+
+Odd Numbers Filter
+Write a function named filterOddNumbers that takes an array of numbers and returns a new array that has only odd numbers.
+
+Copy
+filterOddNumbers([1, 2, 3, 4, 5]); // Output: [1, 3, 5]
+Numbers Divisible by Three
+Write a function named filterDivisibleByThree that takes an array of numbers and returns a new array that contains numbers that are divisible by 3.
+
+Copy
+filterDivisibleByThree([3, 6, 7, 9, 12]); // Output: [3, 6, 9, 12]
+Prime Numbers Filter
+Write a function named filterPrimeNumbers that takes an array of numbers and returns a new array that contains only prime numbers.
+
+Copy
+filterPrimeNumbers([2, 3, 4, 5, 6]); // Output: [2, 3, 5]
+Perfect Squares Filter
+Write a function named filterPerfectSquares that takes an array of numbers and returns a new array that has perfect squares.
+
+Copy
+filterPerfectSquares([1, 4, 5, 9, 16]); // Output: [1, 4, 9, 16]
+After completing these problems, take a moment to reflect on your solutions. Are there common patterns or logic that could be refactored? Could you write a generic function that takes a callback to handle specific conditions? Try to refactor your code to use callbacks and observe how it impacts the readability and reusability of your code.
+
+Part 2
+In this part of the assignment, you will be working on four different problems. Each problem will require you to write a function that processes an array of strings according to specific criteria. Initially, you should solve the problems using your current understanding of JavaScript. After that, analyze your solutions and look for patterns that can be refactored using callbacks and generic functions.
+
+Palindrome Strings
+Write a function named filterPalindromes that takes an array of strings and returns a new array containing only those strings that are palindromes.
+
+Copy
+filterPalindromes(["racecar", "madam", "apple"]); // Output: ["racecar", "madam"]
+Lowercase Strings Only
+Write a function named filterLowercase that takes an array of mixed lowercase and uppercase lettered words and returns a new array that contains only strings that are entirely lowercase.
+
+Copy
+filterLowercase(["apple", "Banana", "cherry"]); // Output: ["apple", "cherry"]
+Consonant Lettered Words
+Write a function named filterConsonantWords that takes an array of strings and returns a new array of strings that have only consonant letters.
+
+Copy
+filterConsonantWords(["rhythm", "sky", "fly", "apple"]); // Output: ["rhythm", "sky", "fly"]
+Words with Only One Vowel
+Write a function named filterOneVowelWords that takes an array of strings and returns a new array that contains only words with exactly one vowel.
+
+Copy
+filterOneVowelWords(["cat", "dog", "apple"]); // Output: ["cat", "dog"]
+After solving these problems, reflect on your solutions to identify any common patterns. Consider refactoring your code to use generic functions and callbacks, which can improve the readability and maintainability of your code.
