@@ -38,7 +38,7 @@ const allEven = numbers2.every(function (number) {
 // Empty Arrays
 const emptyArray = [];
 
-const allPositive = emptyArray.every(function (number) {
+const allPositive2 = emptyArray.every(function (number) {
     return number > 0;
 });
 
