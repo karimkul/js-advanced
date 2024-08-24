@@ -177,3 +177,16 @@ console.log([1, 2, 3].findMin());
 console.log([-1, -2, -3].findMin());
 
 // 3. average()
+Array.prototype.average = function () {
+    if (this.length === 0) return "Array is empty";
+
+    let sum = 0;
+    for (let i = 0; i < this.length; i++) {
+        sum += this[i];
+    }
+
+    return sum / this.length;
+};
+
+console.log([1, 2, 3, 4].average()); // Output: 2.5
+console.log([5, 10, 15, 20].average()); // Output: 12.5
