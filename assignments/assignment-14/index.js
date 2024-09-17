@@ -22,22 +22,13 @@ console.log(isPalindromePossible("abcabc")); // true
 console.log(isPalindromePossible("abcba")); // true
 
 // 2. myShift
-
 function myShift(arr, value) {
-    const length = arr.length;
-
-    for (let i = length; i >= 0; i--) {
-        arr[i + 1] = arr[i];
-    }
-
-    arr[0] = value;
-
+    arr.splice(0, 0, value);
     return arr;
 }
 
 const arr = [1, 2, 3];
-myShift(arr, 4);
-console.log(arr); // [4, 1, 2, 3]
+console.log(myShift(arr, 5)); // [4, 1, 2, 3]
 
 // 3. myRemove
 
